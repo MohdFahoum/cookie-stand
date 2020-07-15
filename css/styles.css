@@ -1,0 +1,135 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:whitesmoke;
+    background-color:hotpink;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color:whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 45px;
+  }
+  
+  h2 {
+    font-family: 'Righteous';
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 2em;
+    color: whitesmoke; 
+  }
+  
+  h3 {
+    font-family: 'Righteous';
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  
+ 
+  aside {
+    float: right;
+    margin-right: 15px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 75px;
+    padding: 30px;
+  }
+  
+  #sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    margin-top: 25px;
+ }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-left: 1px solid whitesmoke;
+  }
+  
+  li:first-child {
+    margin-left: 35px;
+  }
+  
+  li:last-child {
+    border-right: 1px solid whitesmoke;
+  }
+  
+  
+  #salmon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  
+  #locationUl {
+    border-style: none;
+    border-color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+ 
+  #field {
+    border: solid black 3px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+  
+  #aboutUsImg {
+    background-color: none;
+    border: none;
+    padding: none;
+    margin-right: none;
+  }
+  
+  #aboutUs {
+    margin-top: 90px;
+  }
+  
+  .indexDiv {
+    margin-top: 35px;
+    margin-left: 15px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 75px;
+    width: 70%;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .indexDiv p {
+    margin-left: 30px;
+  }
+  
+  .imgResize {
+    width: 200px;
+    border: ridge 3px black;
+  }
